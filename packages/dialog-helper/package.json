@@ -1,6 +1,6 @@
 {
   "name": "dialog-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "弹层辅助工具,处理弹层滚动穿透及input光标异位等问题",
   "keywords": [
     "滚动穿透",
