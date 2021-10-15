@@ -1,0 +1,30 @@
+{
+  "name": "dialog-helper",
+  "version": "1.0.0",
+  "description": "弹层辅助工具,处理弹层滚动穿透及input光标异位等问题",
+  "keywords": [
+    "滚动穿透",
+    "输入框光标异位"
+  ],
+  "author": "zenghongcong <zenghongcong@black-unique.com>",
+  "homepage": "https://github.com/zenghongcong/utils#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenghongcong/utils.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/zenghongcong/utils/issues"
+  }
+}
