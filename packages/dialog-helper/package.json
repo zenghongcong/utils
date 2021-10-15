@@ -6,7 +6,7 @@
     "滚动穿透",
     "输入框光标异位"
   ],
-  "author": "zenghongcong <zenghongcong@black-unique.com>",
+  "author": "zenghongcong <zenghongcong@gmail.com>",
   "homepage": "https://github.com/zenghongcong/utils#readme",
   "license": "MIT",
   "main": "index.js",
