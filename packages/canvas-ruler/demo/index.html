@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>可滑动刻度尺组件</title>
+    <style type="text/css">
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      canvas {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="ruler"></canvas>
+    <div class="value"></div>
+    <script src="../index.js"></script>
+    <script>
+      var ruler = new Ruler({
+        canvasId: "ruler",
+        width: document.getElementById("ruler").offsetWidth, //画布宽
+        height: 50, //画布高
+        min: 0, //最小值
+        max: 10000, //最大值
+        scale: 100, //每个刻度代表值
+        value: 0, //当前值
+        unit: 10, //刻度距离
+        lineColor: "#f00", //线颜色
+        callback: function (val) {
+          //刻度值改变时回调
+          document.querySelector(".value").innerHTML = val;
+        },
+      });
+    </script>
+  </body>
+</html>

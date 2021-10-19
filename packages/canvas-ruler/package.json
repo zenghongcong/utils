@@ -1,0 +1,23 @@
+{
+  "name": "canvas-ruler",
+  "version": "1.0.0",
+  "description": "可滑动刻度尺",
+  "keywords": [
+    "滑动",
+    "刻度尺"
+  ],
+  "author": "zenghongcong <zenghongcong@black-unique.com>",
+  "homepage": "https://github.com/zenghongcong/utils#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenghongcong/utils.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/zenghongcong/utils/issues"
+  }
+}
